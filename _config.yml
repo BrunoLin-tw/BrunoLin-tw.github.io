@@ -26,7 +26,7 @@ url                      : "https://brunolin-tw.github.io"
 baseurl                  : ""
 repository               : "BrunoLin-tw/BrunoLin-tw.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/bruno-avatar.svg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -92,29 +92,32 @@ baidu_site_verification  :
 twitter:
   username               :
 facebook:
-  username               :
+  username               : "lin.bruno"
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/bruno-avatar.svg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : "Bruno Lin" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://github.com/BrunoLin-tw"
+    - "https://www.facebook.com/lin.bruno"
+    - "https://brunolin-tw.github.io/ai-newsletter/"
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "G-REPLACE_WITH_YOUR_ID"
+    anonymize_ip         : true
 
 
 # Site Author
 author:
   name             : "Bruno Lin"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bruno-avatar.svg"
   bio              : "寫程式、做產品、記錄學習。"
   location         : "Taipei, Taiwan"
   email            :
@@ -130,10 +133,13 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/lin.bruno"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BrunoLin-tw"
+    - label: "AI Daily Newsletter"
+      icon: "fas fa-fw fa-newspaper"
+      url: "https://brunolin-tw.github.io/ai-newsletter/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -141,24 +147,15 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://www.facebook.com/lin.bruno"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/BrunoLin-tw"
+    - label: "AI Daily Newsletter"
+      icon: "fas fa-fw fa-newspaper"
+      url: "https://brunolin-tw.github.io/ai-newsletter/"
   since: "2013"
 
 

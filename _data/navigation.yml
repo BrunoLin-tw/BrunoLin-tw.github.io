@@ -10,3 +10,5 @@ main:
     url: /categories/
   - title: "標籤"
     url: /tags/
+  - title: "AI Daily Newsletter"
+    url: https://brunolin-tw.github.io/ai-newsletter/

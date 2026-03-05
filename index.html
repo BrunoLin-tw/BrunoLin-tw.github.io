@@ -1,4 +1,52 @@
 ---
-layout: home
-author_profile: true
+layout: splash
+permalink: /
+header:
+  overlay_color: "#0f172a"
+  overlay_filter: 0.35
+  actions:
+    - label: "看 AI Daily Newsletter"
+      url: "https://brunolin-tw.github.io/ai-newsletter/"
+excerpt: "Software Engineer | AI Workflow Builder | Product-minded Maker"
+
+feature_row_profile:
+  - image_path: /assets/images/bruno-avatar.svg
+    alt: "Bruno Lin Avatar"
+    title: "Bruno Lin"
+    excerpt: "專注在軟體工程、AI 自動化與內容產品，持續把想法做成可上線的東西。"
+
+feature_row_projects:
+  - title: "AI Daily Newsletter"
+    excerpt: "每日整理 AI 趨勢、工具更新與值得關注的技術動態。"
+    url: "https://brunolin-tw.github.io/ai-newsletter/"
+    btn_label: "前往閱讀"
+    btn_class: "btn--primary"
+  - title: "技術筆記"
+    excerpt: "記錄開發流程、踩坑解法與可重複使用的工作方法。"
+    url: "/posts/"
+    btn_label: "看文章"
+    btn_class: "btn--inverse"
+  - title: "關於我"
+    excerpt: "我的背景、目前關注的主題，以及合作方式。"
+    url: "/about/"
+    btn_label: "更多資訊"
+    btn_class: "btn--light-outline"
 ---
+
+{% include feature_row id="feature_row_profile" type="left" %}
+
+## Skills
+
+- Backend: API design, automation workflows, data processing
+- Frontend: responsive UI, content-driven sites, design system adaptation
+- AI: LLM tooling integration, prompt workflow design, practical AI ops
+
+## Experience Snapshot
+
+- 持續經營技術與 AI 內容，將知識整理成可被快速吸收的資訊產品
+- 以工程方法優化重複性工作，建立可維護的自動化流程
+- 結合產品視角與技術落地能力，從需求到交付完整推進
+
+## Featured
+
+{% include feature_row id="feature_row_projects" %}
