@@ -26,7 +26,7 @@ url                      : "https://brunolin-tw.github.io"
 baseurl                  : ""
 repository               : "BrunoLin-tw/BrunoLin-tw.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/bruno-avatar.svg"
+logo                     : "/assets/images/profile/avatar.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -95,7 +95,7 @@ facebook:
   username               : "lin.bruno"
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/bruno-avatar.svg" # Open Graph/Twitter default site image
+og_image                 : "/assets/images/profile/avatar.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -117,7 +117,7 @@ analytics:
 # Site Author
 author:
   name             : "Bruno Lin"
-  avatar           : "/assets/images/bruno-avatar.svg"
+  avatar           : "/assets/images/profile/avatar.jpg"
   bio              : "寫程式、做產品、記錄學習。"
   location         : "Taipei, Taiwan"
   email            :

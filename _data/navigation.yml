@@ -10,5 +10,7 @@ main:
     url: /categories/
   - title: "標籤"
     url: /tags/
+  - title: "旅遊相簿"
+    url: /travel/
   - title: "AI Daily Newsletter"
     url: https://brunolin-tw.github.io/ai-newsletter/
