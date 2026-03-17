@@ -12,7 +12,7 @@ tags:
   - Ambiq
 ---
 
-Embedded World 2026 展會上，NPU SoC 成為焦點，這些低功耗高性能晶片對邊緣 AI 應用（如 PTZ 攝影機、醫療影像）至關重要。以下快速掃描幾款亮點產品，結合我在圓展科技的嵌入式 AI 部署經驗。
+Embedded World 2026 展會上，NPU SoC 成為焦點，這些低功耗高性能晶片對邊緣 AI 應用（如 PTZ 攝影機、醫療影像）至關重要。以下快速掃描幾款亮點產品，結合我的嵌入式 AI 部署經驗。
 
 ## Ambiq Atomiq (NPU SoC)
 
