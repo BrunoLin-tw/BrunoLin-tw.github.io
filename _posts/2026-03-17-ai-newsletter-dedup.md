@@ -98,6 +98,3 @@ fingerprint: "Broadcom|broadcom-ai-revenue|2026-03-05"
 
 **結論**：去重機制不是「限制」，而是「把關」。讓每天的 Newsletter 保持「今天最值得讀」的品質，才是對讀者最大的尊重。
 
----
-
-*本文同步發布於 [AI Daily Newsletter](https://brunolin-tw.github.io/ai-newsletter/)*
