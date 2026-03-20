@@ -1,5 +1,5 @@
 ---
-title: "Codex Subagents 上線：AI Coding 的下一步，不是更強補完，而是更好的分工"
+title: "Codex Subagents 上線：讓多個代理同時幫你工作"
 date: 2026-03-20 00:06:00 +0800
 categories:
   - tech
@@ -11,9 +11,12 @@ tags:
   - workflow
 ---
 
-![Codex Subagents 上線：AI Coding 的下一步，不是更強補完，而是更好的分工](/assets/images/posts/2026-03-20-codex-subagents-hero.png)
+最近 OpenAI 提到 Codex 已經開始支援 subagents。 <https://developers.openai.com/codex/subagents>
+終於也跟上Claude Code的腳步了!
 
-最近 OpenAI 提到 Codex 已經開始支援 subagents。表面上看，這像是 AI coding 工具又多了一個新功能；但往深一點看，這件事真正值得注意的，不是 AI 更會寫程式，而是 AI 開始更會分工。
+![Codex Subagents 上線：讓多個代理同時幫你工作](/assets/images/posts/2026-03-20-codex-subagents-hero.png)
+
+表面上看，這像是 AI coding 工具又多了一個新功能；但往深一點看，這件事真正值得注意的，不是 AI 更會寫程式，而是 AI 開始更會分工。
 
 過去大家對 AI coding 的期待，大多停留在補 code、修 bug、寫測試、改註解。這些都很實用，也確實提升了效率，但本質上還是在原本的工作流裡，把其中幾個步驟交給 AI 代勞。
 
