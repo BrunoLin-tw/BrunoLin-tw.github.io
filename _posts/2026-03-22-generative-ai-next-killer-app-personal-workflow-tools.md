@@ -1,6 +1,6 @@
 ---
 title: "生成式 AI 的下一個 Killer App：不是萬能平台，而是個人工作流工具"
-date: 2026-03-19 19:52:00 +0800
+date: 2026-03-22 19:52:00 +0800
 categories:
   - tech
 tags:
