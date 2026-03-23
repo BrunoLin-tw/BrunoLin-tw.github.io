@@ -16,14 +16,10 @@ tags:
 
 用 Cursor、Claude Code 這些工具，懶得按規矩，結果 SQL 注入、資料明文外洩，黑客一看就破。
 
-過去 spam 低質是故意的，專過濾笨蛋；AI 來了，海量生產，連 Gmail 都擋不住——外表正常點，內裡爛。
+過去 spam 低質是故意的，專過濾笨蛋；AI 來了，海量生產/以假亂真讓人防不勝防。
 
 相關討論：
-- [Vibe code is legacy code](https://news.ycombinator.com/item?id=44739556)：這就是即時爛碼。
-- [Vibe Coding Is a Security Disaster](https://news.ycombinator.com/item?id=47479724)：資安大禍將至。
-
-防禦麻煩大了。AI 變種無限，黑名單廢；網站加 UI 動畫，藏不住爛內功；大公司也玩，數據漏光，黑帽當義警專幹它們。不過 AI 也能反過來掃 code 品質。
-
-Spam 從笨變氾濫，資安頭痛。開發者，生產碼別亂 AI；讀者，可疑郵件別點。下步：試 AI 抓 vibe-code？來聊。
+- [Vibe code is legacy code](https://news.ycombinator.com/item?id=44739556)
+- [Vibe Coding Is a Security Disaster](https://news.ycombinator.com/item?id=47479724)
 
 ---
