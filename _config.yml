@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
 locale                   : "zh-TW"
@@ -96,6 +96,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "/assets/images/profile/avatar.jpg" # Open Graph/Twitter default site image
+og_image_alt             : # Alt text for Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -121,19 +122,21 @@ author:
   bio              : "寫程式、做產品、記錄學習。"
   location         : "Taipei, Taiwan"
   email            :
+  # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-square-envelope"
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://brunolin-tw.github.io"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-square-x-twitter"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/lin.bruno"
+      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/BrunoLin-tw"
@@ -288,6 +291,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+# show_taxonomy: false  # set to false to hide tag/category lists on posts
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -322,3 +326,4 @@ defaults:
       comments: # true
       share: true
       related: true
+
