@@ -61,5 +61,5 @@ tags:
 
 **參考**：
 - [AlphaFold 3 Paper](https://www.nature.com/articles/s41586-024-07487-w)
-- [Dyno Therapeutics GTC 2026](https://dynotherapeutics.com/news/dyno-psi-phi-launch)
+- [Dyno Therapeutics GTC 2026](https://www.dynotx.com/dynomic/dyno-psi-phi-shaping-new-futures-for-protein-design)
 - [Insilico Medicine](https://insilico.com/)
