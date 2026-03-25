@@ -12,7 +12,7 @@ tags:
   - 個性化醫療
 ---
 
-![生成式AI與生物醫療](assets/images/2026-03-25-ai-biomed.png)
+![生成式AI與生物醫療](/assets/images/posts/2026-03-25-ai-biomed.png)
 
 生成式AI（Generative AI）已從藝術創作和聊天機器人，進化到重塑生物醫療產業。2026年，AlphaFold 3、RoseTTAFold 等模型不僅預測蛋白質結構，還能模擬分子互動、設計新型藥物。這篇文章探討生成式AI如何加速生物醫療創新，從藥物篩選到個性化治療，帶來革命性變革。
 
