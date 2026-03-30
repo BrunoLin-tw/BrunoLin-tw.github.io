@@ -1,6 +1,6 @@
 ---
 title: "AI Harness Engineering：給 AI 代理套上韁繩的工程學"
-date: 2026-03-30 00:00:00 +0800
+date: 2026-03-30 01:00:00 +0800
 categories:
   - AI
   - tech
@@ -42,6 +42,3 @@ tags:
 2. [Martin Fowler 解釋](https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html)
 3. [Louis Bouchard 實戰](https://www.louisbouchard.ai/harness-engineering/)
 
-（資料來源：Tavily 搜尋，2026/3/29）
-
-有興趣試試？留言討論！
