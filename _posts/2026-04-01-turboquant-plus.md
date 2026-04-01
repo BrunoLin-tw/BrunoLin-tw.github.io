@@ -2,8 +2,8 @@
 title: "這位老兄把 TurboQuant 實現還加強了 - TurboQuant+"
 date: 2026-04-01 11:00:00 +0800
 layout: post
-categories: [AI, LLM, 優化]
-tags: [TurboQuant, KV Cache, llama.cpp, 壓縮, 推理]
+categories: [ai, llm, optimization]
+tags: [TurboQuant, KVCache, llamacpp, compression, inference]
 description: "ICLR 2026 TurboQuant 論文的開源實現 + 獨家擴展，KV cache 壓縮 6.4x，長上下文記憶體殺手。TheTom 的 TurboQuant+ 實測分享。"
 ---
 
@@ -25,7 +25,7 @@ description: "ICLR 2026 TurboQuant 論文的開源實現 + 獨家擴展，KV cac
 論文是起點，老兄加了三招，已被多硬體獨立驗證：
 1. **V 壓縮免費**：Value 壓到 2-bit 沒事，只要 Key 保持 q8_0。對稱壓縮失效？**非對稱 K q8_0 + V turbo** 救回來（Qwen2.5 Q4_K_M 神救）。
 2. **Boundary Layers 敏感**：前 2 + 後 2 層 q8_0，其餘 turbo2，品質回收 **37~91%**。
-3. **Sparse V Dequant**：用 attention 權重閘控，跳低貢獻 V，**decode +22.8%**（32K 上下文，PPL 零變動）。
+3. **Sparse V Dequant**：用 attention 權重閾控，跳低貢獻 V，**decode +22.8%**（32K 上下文，PPL 零變動）。
 
 其他黑科技：block size 優化（5.12x）、turbo4 復活（PolarQuant 勝 QJL）。[docs/papers/](https://github.com/TheTom/turboquant_plus/tree/main/docs/papers) 全有實驗數據，**511+ Python test + NIAH 檢索** 硬證。
 
