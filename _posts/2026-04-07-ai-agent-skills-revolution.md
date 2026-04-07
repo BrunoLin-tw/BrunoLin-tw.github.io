@@ -1,5 +1,5 @@
 ---
-title: \"AI Coding Agents 的生產力神器：addyosmani/agent-skills 技能包推薦\"
+title: AI Coding Agents 的生產力神器：addyosmani/agent-skills 技能包推薦
 date: 2026-04-07 10:00:00 +0800
 categories:
   - tech
@@ -11,7 +11,7 @@ tags:
   - productivity
 ---
 
-最近發現一個超實用的 GitHub repo：**[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)**，由 Google 前資深工程師 Addy Osmani 出品，專為 AI coding agents (Claude Code、Cursor、Gemini CLI 等) 設計的 **19 個 production-grade 技能包**。這不是泛泛提示詞，而是資深工程師的結構化 workflow，能讓 AI 從「原型亂寫」升級到「生產級可靠程式碼」，強制走 Define → Plan → Build → Verify → Review → Ship 全生命週期。
+最近發現一個超實用的 GitHub repo：**[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)**，由 Google Cloud director - Addy Osmani 開源，專為 AI coding agents (Claude Code、Cursor、Gemini CLI 等) 設計的 **19 個 production-grade 技能包**。這不是泛泛提示詞，而是資深工程師的結構化 workflow，能讓 AI 從「原型亂寫」升級到「生產級可靠程式碼」，強制走 Define → Plan → Build → Verify → Review → Ship 全生命週期。
 
 ## 背景：AI Coding 的痛點與解決方案
 
