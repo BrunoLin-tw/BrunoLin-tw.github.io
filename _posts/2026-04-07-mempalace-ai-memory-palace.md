@@ -46,6 +46,6 @@ Local LLM：`mempalace wake-up > context.txt` 丟prompt。
 
 ## 結論
 
-結構+壓縮遠勝現有記憶插件，OpenClaw/LanceDB 直接 fork 來用。女星工程水準不輸大廠，去裝了試，舊對話全救回來。
+雖說真正開發的另有其人(Ben Sigman https://x.com/bensig)，但也應證了AI coding時代，只要有創意和發想，甚麼點子都有可能實現。
 
 [GitHub Repo](https://github.com/milla-jovovich/mempalace)
