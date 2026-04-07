@@ -13,6 +13,8 @@ tags:
 
 好萊塢《生化危機》女主角米拉·喬沃維奇（Milla Jovovich）跨界AI圈，在GitHub開源 [MemPalace](https://github.com/milla-jovovich/mempalace)，一個純本地AI記憶系統。Benchmark測試LongMemEval R@5拿下100%滿分（rerank），raw也96.6%，遠勝Mem0/Zep等雲端貨。新聞：[AIbase報導](https://news.aibase.com/zh/news/26899)。
 
+![Milla coding with zombies](/assets/images/posts/2026-04-07-22-33-milla-coding-zombies.png)
+
 ## 痛點：AI為什麼老忘事？
 
 用Claude/ChatGPT半年，19.5M tokens的決策、debug、架構辯論全沒了。傳統記憶系統讓AI自己判斷「值得記」，丟掉原始對話。米拉痛到自己寫：全存+結構化檢索，永不遺失。
