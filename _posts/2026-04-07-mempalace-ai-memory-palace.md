@@ -44,8 +44,8 @@ Claude用MCP：`claude mcp add mempalace -- python -m mempalace.mcp_server`，AI
 
 Local LLM：`mempalace wake-up > context.txt` 丟prompt。
 
-## 結論：OpenClaw/LanceDB該升級了
+## 結論
 
-比我們記憶插件強在結構+壓縮，fork來用超讚。女星工程師魂燃燒，AI創新不只大廠事。下載玩，半年對話全活起來！🐻
+結構+壓縮遠勝現有記憶插件，OpenClaw/LanceDB 直接 fork 來用。女星工程水準不輸大廠，去裝了試，舊對話全救回來。
 
 [GitHub Repo](https://github.com/milla-jovovich/mempalace)
