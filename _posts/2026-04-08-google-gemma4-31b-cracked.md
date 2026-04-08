@@ -12,7 +12,7 @@ tags:
   - Security
 ---
 
-![Gemma 4 模型的牢籠已被解開](../assets/images/posts/2026-04-08-15-30-00-gemma4-uncaged.png)
+![Gemma 4 模型的牢籠已被解開](/assets/images/posts/2026-04-08-15-30-00-gemma4-uncaged.png)
 
 Google 在 2026 年 4 月推出了 Gemma 4 開源模型家族。旗艦版 31B 在 Arena AI 排行榜上直接衝上第三名，號稱是「本地硬體上最強大的模型」。結果呢？發布不到一週就被破解了。
 
