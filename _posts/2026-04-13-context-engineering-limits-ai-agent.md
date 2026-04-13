@@ -11,7 +11,6 @@ tags:
   - Agentic-Development
   - Prompt-Engineering
 ---
-![Context Engineering Visual](/assets/images/posts/2026-04-13-context-engineering-hero.svg)
 
 許多人把 AI agent 的失敗歸因於模型不夠強，但實際上更常見的問題是 **context 沒設計好**——資訊太雜、重點不清、缺乏驗證機制，導致 agent 開始飄移、忘關鍵條件或一路走錯方向。
 
