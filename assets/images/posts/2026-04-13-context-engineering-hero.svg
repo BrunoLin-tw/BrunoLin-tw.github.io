@@ -1,0 +1,138 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="600" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2e86ab">
+    Context Engineering: The Real Bottleneck for AI Agents
+  </text>
+  
+  <!-- Central Concept Box -->
+  <rect x="500" y="300" width="200" height="200" rx="10" ry="10" fill="#ffffff" stroke="#2e86ab" stroke-width="2"/>
+  <text x="600" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#212529">
+    Context<br/>Engineering
+  </text>
+  
+  <!-- Semantic Density Box -->
+  <rect x="50" y="400" width="250" height="150" rx="8" ry="8" fill="#e8f4fd" stroke="#a23b72" stroke-width="1.5"/>
+  <text x="175" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#212529">
+    Semantic Density
+  </text>
+  <text x="175" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#212529">
+    (Keep signal, remove noise)
+  </text>
+  <text x="175" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • High-value info preserved
+  </text>
+  <text x="175" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Low-value tokens removed
+  </text>
+  <text x="175" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Focus on task-relevant meaning
+  </text>
+  
+  <!-- Structured Context Box -->
+  <rect x="900" y="400" width="250" height="150" rx="8" ry="8" fill="#e8f4fd" stroke="#a23b72" stroke-width="1.5"/>
+  <text x="1025" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#212529">
+    Structured Context
+  </text>
+  <text x="1025" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#212529">
+    (Background → Rules)
+  </text>
+  <text x="1025" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Project background
+  </text>
+  <text x="1025" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Task goals & limits
+  </text>
+  <text x="1025" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Core files & references
+  </text>
+  
+  <!-- Verification Loop Box -->
+  <rect x="450" y="100" width="300" height="150" rx="8" ry="8" fill="#fff0e6" stroke="#f18f01" stroke-width="1.5"/>
+  <text x="600" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#212529">
+    Verification Loop
+  </text>
+  <text x="600" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#212529">
+    (Gather → Act → Verify → Repeat)
+  </text>
+  <text x="600" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Context gathering
+  </text>
+  <text x="600" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Action execution
+  </text>
+  <text x="600" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Result verification
+  </text>
+  <text x="600" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Iterative improvement
+  </text>
+  
+  <!-- Validation Tools Box -->
+  <rect x="50" y="100" width="300" height="150" rx="8" ry="8" fill="#e6f7e6" stroke="#c73e1d" stroke-width="1.5"/>
+  <text x="200" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#212529">
+    Validation Tools
+  </text>
+  <text x="200" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#212529">
+    (Linters, Checkers, Tests)
+  </text>
+  <text x="200" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Syntax & style checks
+  </text>
+  <text x="200" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Permission validation
+  </text>
+  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Output format verification
+  </text>
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#212529">
+    • Rule-based constraints
+  </text>
+  
+  <!-- Arrows -->
+  <!-- Central to Semantic -->
+  <line x1="600" y1="400" x2="175" y2="475" stroke="#a23b72" stroke-width="2"/>
+  <polygon points="160,470 175,475 160,480" fill="#a23b72"/>
+  
+  <!-- Central to Structured -->
+  <line x1="700" y1="400" x2="1025" y2="475" stroke="#a23b72" stroke-width="2"/>
+  <polygon points="1010,470 1025,475 1010,480" fill="#a23b72"/>
+  
+  <!-- Central to Verification -->
+  <line x1="600" y1="300" x2="600" y2="250" stroke="#f18f01" stroke-width="2"/>
+  <polygon points="595,265 600,250 605,265" fill="#f18f01"/>
+  
+  <!-- Central to Tools -->
+  <line x1="500" y1="300" x2="200" y2="250" stroke="#c73e1d" stroke-width="2"/>
+  <polygon points="195,235 200,250 195,265" fill="#c73e1d"/>
+  
+  <!-- Subtle grid pattern -->
+  <g opacity="0.1">
+    <g stroke="#dee2e6" stroke-width="0.5">
+      <line x1="0" y1="0" x2="1200" y2="0"/>
+      <line x1="0" y1="100" x2="1200" y2="100"/>
+      <line x1="0" y1="200" x2="1200" y2="200"/>
+      <line x1="0" y1="300" x2="1200" y2="300"/>
+      <line x1="0" y1="400" x2="1200" y2="400"/>
+      <line x1="0" y1="500" x2="1200" y2="500"/>
+      <line x1="0" y1="600" x2="1200" y2="600"/>
+      <line x1="0" y1="700" x2="1200" y2="700"/>
+      <line x1="0" y1="800" x2="1200" y2="800"/>
+      <line x1="0" y1="0" x2="0" y2="800"/>
+      <line x1="100" y1="0" x2="100" y2="800"/>
+      <line x1="200" y1="0" x2="200" y2="800"/>
+      <line x1="300" y1="0" x2="300" y2="800"/>
+      <line x1="400" y1="0" x2="400" y2="800"/>
+      <line x1="500" y1="0" x2="500" y2="800"/>
+      <line x1="600" y1="0" x2="600" y2="800"/>
+      <line x1="700" y1="0" x2="700" y2="800"/>
+      <line x1="800" y1="0" x2="800" y2="800"/>
+      <line x1="900" y1="0" x2="900" y2="800"/>
+      <line x1="1000" y1="0" x2="1000" y2="800"/>
+      <line x1="1100" y1="0" x2="1100" y2="800"/>
+      <line x1="1200" y1="0" x2="1200" y2="800"/>
+    </g>
+  </g>
+</svg>
