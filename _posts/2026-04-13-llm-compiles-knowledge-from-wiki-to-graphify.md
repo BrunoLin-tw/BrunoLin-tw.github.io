@@ -13,6 +13,8 @@ tags:
   - Agentic-Development
 ---
 
+![LLM 從 wiki 層走向 knowledge graph 的知識編譯示意圖](/assets/images/posts/2026-04-13-llm-wiki-graphify-hero.png)
+
 最近 Andrej Karpathy 在 X 上提到的 **LLM Knowledge Bases**，我覺得有意思的地方，不是它又提出一個新的 RAG 變形，而是它重新定義了一件事：**LLM 處理知識，到底應該是查資料，還是先把資料編譯成更好用的形式。**
 
 這兩種做法看起來很像，但工作流其實差很多。
