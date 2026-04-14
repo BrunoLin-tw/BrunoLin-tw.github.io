@@ -44,7 +44,9 @@ tags:
 - `##` 小標題
 - 清單（`-` 或 `1. 2. 3.`）
 - 程式碼區塊（```）
-- 圖片（`![alt](路徑)`）
+- 圖片（`![alt](路徑 /assets/images/posts/{image_name}.png)`）
+- 圖片檔案路徑請放到 assets/images/posts/
+- 若加入超連結要使用[text](hyper-link)
 
 ## 4) 提交到 GitHub
 
