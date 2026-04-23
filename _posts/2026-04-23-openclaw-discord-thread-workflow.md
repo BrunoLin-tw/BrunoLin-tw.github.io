@@ -18,6 +18,8 @@ tags:
 
 但真的開始用 Discord 跟 Hermes agent 互動之後，我才發現，Discord 的 channel 和 thread 設計，跟 AI agent 的工作模式幾乎是天作之合。這次不只是多接了一個 message channel 而已，而是讓我重新理解，什麼樣的通訊介面才更適合拿來和 AI agent 長期協作。
 
+![Discord 風格聊天圖示加上龍蝦大螯的部落格插圖](/assets/images/posts/discord-lobster-claws-header.png)
+
 ## 我一直以為 Telegram 已經夠用了
 
 過去我使用 OpenClaw，基本上就是把 Telegram 當成和 agent 溝通的主要入口。
