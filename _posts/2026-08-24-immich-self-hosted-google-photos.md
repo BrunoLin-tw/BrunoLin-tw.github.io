@@ -121,7 +121,7 @@ zip 不需要事先解壓縮。
   --include-unmatched `
   --session-tag `
   --log-file=.\immich_import_info.log `
-  .\takeout-*.jpg
+  .\takeout-*.zip
 ```
 
 幾個參數值得說明：
