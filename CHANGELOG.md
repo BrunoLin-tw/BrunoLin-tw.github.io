@@ -1,5 +1,30 @@
 # Changelog
 
+## Unreleased
+
+No unreleased changes yet.
+
+## [4.28.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.28.1)
+
+### Enhancements
+
+- Respect custom parameters in yiq-contrast-color function (#5453)
+- Allow specifying `rtl` in both page and layout (#5460)
+- Add title attribute to video iframes for accessibility (#5471)
+- Silence "Sass @import rules are deprecated" warning
+- Allow per-post or per-collection `date_format` values. (#5477)
+- Replace inline style `padding-left` with `padding-inline-start` for RTL support (#5480)
+
+### Bug Fixes
+
+- Fix animations to pass Lighthouse. (#5494)
+
+### Documentation & Maintenance
+
+- Update /docs/javascript/ to reflect changes in `0b8b523`
+- Update bad-pr.yml script from ubuntu-slim to ubuntu-latest (#5483)
+- Use relative paths for README images (#5488)
+
 ## [4.28.0](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.28.0)
 
 ### Enhancements
