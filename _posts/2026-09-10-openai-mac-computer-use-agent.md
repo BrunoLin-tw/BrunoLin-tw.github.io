@@ -14,6 +14,8 @@ tags:
 
 八月底有消息指出，OpenAI 在幾個月內採購了數萬台 Mac mini 與 Mac Studio，投入強化學習（Reinforcement Learning）和 computer-use agent 的訓練。
 
+![GPT-6 Astra 協調大量 Mac mini 節點進行 computer-use agent 訓練](/assets/images/posts/openai-gpt6-astra-mac-mini-agent-training.jpg)
+
 沒過幾天，OpenAI 在 9 月 3 日發表 GPT-6 Astra，把 computer use 放到產品能力的正中央：填表、操作 CRM、整理行事曆、跑網頁研究、修改文件、安裝與測試軟體，甚至依照畫面上的錯誤做排除。
 
 兩件事沒有直接的官方因果證據。OpenAI 和 Apple 都沒有確認採購數量，GPT-6 Astra 的訓練細節也不可能公開。不過放在一起看，方向已經很清楚：OpenAI 投資的重點，正在從「讓模型回答得更好」移向「讓模型能在真正的電腦環境把工作做完」。
